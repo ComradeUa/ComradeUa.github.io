@@ -4,11 +4,11 @@ Layout of the basic website
 
 # Description:
 
-This repository contains the HTML, CSS, and JavaScript code for the base website.
+This repository contains the HTML, CSS code for the base website.
 
 # Target:
 
-Demonstrate the basics of HTML, CSS and JavaScript.
+Demonstrate the basics of HTML, CSS .
 Create a simple but functional website.
 Serve as a starting point for more complex web development.
 
