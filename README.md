@@ -15,8 +15,14 @@ Serve as a starting point for more complex web development.
 # Project structure:
 
 ```index.html```: HTML code of the main page.
+
+
 ```styles.scss```: CSS code for styling the website.
+
+
 ```images```: Folder for images used on the website.
+
+
 ```fonts```: Folder for fonts used on the website.
 
 # Launch the project
