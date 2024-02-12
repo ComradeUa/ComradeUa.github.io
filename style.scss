@@ -1,70 +1,68 @@
 /*header*/
-html{
+html {
     scroll-behavior: smooth;
 }
 @font-face {
-    font-family: 'Gilroy-Bold';
-    src: url('./fonts/Gilroy-Bold.ttf');
+    font-family: "Gilroy-Bold";
+    src: url("./fonts/Gilroy-Bold.ttf");
 }
 @font-face {
-    font-family: 'Gilroy-Medium';
-    src: url('./fonts/Gilroy-Medium.ttf');
+    font-family: "Gilroy-Medium";
+    src: url("./fonts/Gilroy-Medium.ttf");
 }
-$font-bold: 'Gilroy-Bold';
-$font-hover:#070707;
+$font-bold: "Gilroy-Bold";
+$font-hover: #070707;
 $font: #828282;
-$font-medium: 'Gilroy-Medium';
-.navigation{
-    nav{
-    display: flex;
-    justify-content:space-between;
-    font-family: $font-bold;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    color: $font-hover;
-    text-decoration: none;
-    }
-    a{
-        color: $font ;
+$font-medium: "Gilroy-Medium";
+.navigation {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        font-family: $font-bold;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: $font-hover;
         text-decoration: none;
     }
-    a:hover{
+    a {
+        color: $font;
+        text-decoration: none;
+    }
+    a:hover {
         color: #070707;
         text-decoration: none;
     }
-  
-    
 }
-.stroke{
+.stroke {
     border: 1px solid #828282;
 }
-.container{
+.container {
     width: 80%;
     min-height: 100vh;
     margin: auto;
 }
-.txt-name{
+.txt-name {
     font-size: 60px;
-    font-style:normal;
+    font-style: normal;
     font-weight: bolder;
     font-family: $font-bold;
     line-height: normal;
 }
-.txt-specialiaty{
+.txt-specialiaty {
     font-size: 30px;
     font-weight: normal;
     padding-top: 4%;
     display: flex;
     font-family: $font-medium;
 }
-.txt-container{
+.txt-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-.container-information{
+.container-information {
     width: 100%;
     height: 90vh;
     display: flex;
@@ -72,89 +70,88 @@ $font-medium: 'Gilroy-Medium';
     align-items: center;
     flex-direction: column;
 }
-.first-photo{
+.first-photo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     height: 40%;
 }
-.switch-txt-container{
+.switch-txt-container {
     display: flex;
     align-items: center;
     transform: rotate(-90deg);
-    a{
+    a {
         text-decoration: none;
         font-family: $font-bold;
         font-size: 16px;
         color: #828282;
     }
-    a:hover{
+    a:hover {
         color: black;
         text-decoration: none;
     }
 }
 /*main*/
 
-.about{
+.about {
+    text-align: center;
+    font-size: 34px;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    h1 {
+        font-family: $font-bold;
+    }
+    p {
+        font-family: $font-medium;
+    }
+}
+.information-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
         text-align: center;
-        font-size: 34px;
-        display: flex;
-        flex-direction: column;
-        height: 60%;
-        h1{
-            font-family: $font-bold;
-        }
-        p{
-            font-family: $font-medium;
-            
-        }
+        font-size: 27px;
     }
-.information-container{
-        width: 100%;
-        height: 100vh;
-        background-color: #f6f6f6;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        p{
-            text-align: center;
-            font-size: 27px;
-        }
-    }
-.container-skills{
+}
+.container-skills {
     text-align: center;
     width: 100%;
     height: 100%;
-    background-color:#FFFF ;
-    h1{
+    background-color: #ffff;
+    h1 {
         font-size: 38px;
         font-family: $font-bold;
     }
-    p{
+    p {
         font-family: $font-medium;
         font-size: 20px;
     }
 }
-.img-container{
+.img-container {
     display: flex;
     justify-content: space-around;
 }
-.portfolio-container{
+.portfolio-container {
     width: 100%;
     height: 100%;
     background-color: #f6f6f6;
     display: flex;
     flex-direction: column;
 }
-.portfolio-txt{
+.portfolio-txt {
     font-family: $font-bold;
     font-size: 34px;
     text-align: center;
     height: 60%;
     padding-top: 10%;
 }
-.photo-container{
+.photo-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -165,7 +162,7 @@ $font-medium: 'Gilroy-Medium';
 }
 /*footer*/
 
-.footer-container{
+.footer-container {
     width: 100%;
     height: 80vh;
     background-color: white;
@@ -175,25 +172,24 @@ $font-medium: 'Gilroy-Medium';
     flex-direction: column;
 }
 
-.footer-information{
+.footer-information {
     display: flex;
     flex-direction: column;
-    h1{
+    h1 {
         font-family: $font-bold;
         font-size: 38px;
     }
-    p{
+    p {
         font-family: $font-medium;
         font-size: 20px;
     }
 }
-.button-container{
+.button-container {
     display: flex;
     flex-direction: column;
     align-self: center;
-    
 }
-.button-send-message{
+.button-send-message {
     width: 200px;
     height: 60px;
     border-radius: 30px;
@@ -203,14 +199,14 @@ $font-medium: 'Gilroy-Medium';
     background-color: black;
     color: white;
 }
-.icons-container{
+.icons-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 0 30%;
 }
 
-.context{
+.context {
     display: flex;
     justify-content: center;
     align-items: center;
