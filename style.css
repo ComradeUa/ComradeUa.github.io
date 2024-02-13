@@ -169,6 +169,12 @@ html {
   font-size: 18px;
   text-decoration-line: underline;
 }
+.photo-container a {
+  text-decoration: underline;
+  font-family: "Gilroy-Medium";
+  color: #070707;
+  font-size: 18px;
+}
 
 /*footer*/
 .footer-container {
