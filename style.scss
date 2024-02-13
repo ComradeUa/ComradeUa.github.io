@@ -152,6 +152,12 @@ $font-medium: "Gilroy-Medium";
     padding-top: 10%;
 }
 .photo-container {
+    a{
+        text-decoration: underline;
+        font-family: $font-medium;
+        color: #070707;
+        font-size: 18px;
+    }
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,6 +166,7 @@ $font-medium: "Gilroy-Medium";
     font-size: 18px;
     text-decoration-line: underline;
 }
+
 /*footer*/
 
 .footer-container {
